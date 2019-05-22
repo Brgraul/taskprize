@@ -1,9 +1,35 @@
-# Smart Microtasks
+# Taskprize
+
+![screen](https://raw.githubusercontent.com/Brgraul/taskprize/master/screen.png)
+
+## The problem :broken_heart:
+
+To create a better world and increase understanding among each other, everyone have similar cognitive oportunities, or at least a common ground in this regards. 80% of human communication is non-verbal, and blind people are deprived of that valuable part. This is a barrier for emotional connections, and we are here to bring it down.
+
+## Our solution :chart_with_upwards_trend:
+Our Pheel Smartglasses provide audio feedback on the expression and reactions of the people in front of you. They count with an integrated camera and send synchronous images to the Azure Cloud for Sentiment Analysis. This feedback is communicated back to the user in the form of speech, transferred through a discrete bone conduction interface. 
+
+## The Implementation :space_invader:
+Along these 31 hours, we built a working Web Application that performs sentiment analysis based on webcam input and transforms the result in user actionable audio feedback. 
+
+* Backend -> Node.js
+* Frontend -> React.js
+* Sentiment Analysis -> Azure Face API
+* Text to Speech -> Azure TTS API
+
+## Our Vision :earth_americas:
+
+Our bigger picture is to implement this framework into a pair of glasses, that discretly scans and feedbacks the enviroment to the user in need. Using cameras for the face detection and bone conduction for communicating the feedback - enabling emotions for everyone!
+
+\# ThinkBigStartSmall
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65064b42-5a8f-4981-b4ae-3c6e38ef8b04/deploy-status)](https://app.netlify.com/sites/dasks/deploys)
 
-This microtasks platform is an application of smart contracts
-that allows users to offer remote tasks to a community of freelancers.
+At Taskprice, we want to let you focus in the things you really care about by outsourcing microtasks.
+The problem we found is the subjectivity of accomplishment of a task in certain fields, like it can be creative design or the editorial world.
+Our users enjoy a simple flow through our web application: 1. They put up the task they want to outsource and how much are they willing to pay. 2. Freelancers take these tasks from the task pool and submit their proposals. 3. Their peers, thus experts in the field, rate the quality of the submitted proposals. 4. Once the time / max people have been reached, a smart contract is triggered paying the set amount to the top performer.
+
+
 Each task creates a smart contract on an Ethereum test network. Tasks
 include description, due date, and offered reward for completion.
 Remote freelancers work on and complete tasks and verify the
