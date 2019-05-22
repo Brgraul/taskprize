@@ -1,33 +1,45 @@
-# Smart Microtasks
+# Taskprize
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65064b42-5a8f-4981-b4ae-3c6e38ef8b04/deploy-status)](https://app.netlify.com/sites/dasks/deploys)
 
-This microtasks platform is an application of smart contracts
-that allows users to offer remote tasks to a community of freelancers.
-Each task creates a smart contract on an Ethereum test network. Tasks
-include description, due date, and offered reward for completion.
-Remote freelancers work on and complete tasks and verify the
-completion by uploading a photo via IPFS as proof of work. Completion
-could then be verified by votes of other freelancers on the platform
-for example. Consensus triggers the smart contract and the reward
-payment is sent.
+<img src="https://raw.githubusercontent.com/Brgraul/taskprize/master/logo.png" alt="drawing" width="400"/>
 
-> Project was developed during a 1.5-day smart contracts hackathon in May 2019.
 
-![screen](https://raw.githubusercontent.com/siebenrock/smart-microtasks/master/screen.png)
+## The problem :broken_heart:
 
-## Smart Contracts
+Nowadays several platforms such as fiverr offer the possibility to outsource microtasks to freelancers. Customers of these platforms are frequently dissaftisfied with the outcome mainly for two reasons: 
 
-Smart contracts are one of the most powerful applications of
-Blockchain technology. Once designed, coded and implemented on the
-Blockchain, they are automatically executed whenever predefined
-trigger-events occur. Through clever design and strict rule-based
-execution of these contracts, it is possible to induce actors to act
-justly, without middlemen like banks, governments or notaries.
+- The outsourcer lacks expertise in the given domain, which makes the evaluation specially subjective
+- The high variability in the quality of the deliverables 
 
-## Project setup
+## Our solution :chart_with_upwards_trend:
 
-Requires MetaMask extension.
+As pointed out by Justin M. Berg, fellow colleagues are the most accurate when it comes to predicting the success of innovative ideas. We offer our users a dApp for microtask outsourcing and collective evaluation of the deliverables.
+
+Our app flow comprises 4 simple steps: 
+1. Contractors put up the task they want to outsource and how much are they willing to pay. 
+2. Freelancers take these tasks from the task pool and submit their proposals. 
+3. Their peers, thus experts in the field, rate the quality of the submitted proposals. 
+4. Once the time / max people have been reached, a smart contract is triggered paying the set amount to the top performer.
+
+## The Implementation :space_invader:
+Along these 20 hours, we built a working dApp powered by a Solidity smart contract and off-chain storage thanks to IPFS. 
+
+![screen](https://raw.githubusercontent.com/Brgraul/taskprize/master/screen.png)
+
+* Backend -> Serverless, yay!
+* Frontend -> Vue.js
+* Smart Contract -> Solidity (Remix deployment)
+* Off-chain storage -> IPFS distributed file system
+
+## Our Vision :earth_americas:
+
+Our goal is to become the defacto trust system in existing freelancer outsourcing platforms.
+
+
+## Project setup :wrench:
+
+*Requires MetaMask extension*
 
 ```
 npm install
