@@ -14,7 +14,7 @@ Nowadays several platforms such as fiverr offer the possibility to outsource mic
 
 ## Our solution :chart_with_upwards_trend:
 
-As pointed out by Justin M. Berg, fellow colleagues are the most accurate when it comes to predicting the success of innovative ideas. We offer our users a dApp for microtask outsourcing and collective evaluation of the deliverables.
+As pointed out by Justin M. Berg, fellow colleagues are the most accurate when it comes to predicting the success of innovative ideas. We offer our users a dApp for microtask outsourcing and collective evaluation of deliverables.
 
 Our app flow comprises 4 simple steps: 
 1. Contractors put up the task they want to outsource and how much are they willing to pay. 
