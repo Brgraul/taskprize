@@ -34,12 +34,12 @@ Along these 20 hours, we built a working dApp powered by a Solidity smart contra
 
 ## Our Vision :earth_americas:
 
-Our goal is this solution to be the defacto trust system in existing freelancer outsourcing platforms.
+Our goal is to become the defacto trust system in existing freelancer outsourcing platforms.
 
 
-## Project setup
+## Project setup :wrench:
 
-Requires MetaMask extension.
+*Requires MetaMask extension*
 
 ```
 npm install
